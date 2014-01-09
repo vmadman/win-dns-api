@@ -42,4 +42,8 @@ So, without further adieu, here are the two supported commands and how they tran
 
 ----
 
-### Congrats, you are now certified!
+Other Notes
+----
+
+* Don't forget to unblock the port (3111) in Windows Firewall
+* Forever.monitor had a windows related bug that occurs when your NodeJS path has a space in it.  I've added simple workaround code that seems to work fine (and universally), but if you run into ENOENT errors, that bug is likely to blame.
