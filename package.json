@@ -1,0 +1,12 @@
+{
+  "name": "windows-dns-api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "restify": "~2.6.1",
+    "forever-monitor": "~1.2.3"
+  }
+}

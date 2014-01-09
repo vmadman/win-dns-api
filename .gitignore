@@ -7,6 +7,10 @@ lib-cov
 *.pid
 *.gz
 
+.idea
+bin/ispack
+atlassian-ide-plugin.xml
+
 pids
 logs
 results
