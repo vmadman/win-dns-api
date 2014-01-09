@@ -23,16 +23,25 @@ console.log('limitations under the License.');
 console.log('');
 console.log('------------------------------------------------------------------------------');
 console.log('');
+
+var WebServerPath = __dirname + "\\lib\\server.js";
+console.log('Web Server Path: ' + WebServerPath);
+console.log('');
 console.log('');
 
+
 // Define child process
-var child = new (forever.Monitor)(__dirname + '/lib/server.js', {
+var child = new (forever.Monitor)(['node',WebServerPath], {
 	silent: true,
-	options: [],
+	options: []
+	
+	/* 
 	watch: true,
 	watchIgnoreDotFiles: true,
 	watchIgnorePatterns: null,
 	watchDirectory: '../'
+	*/
+
 });
 
 child.on('start', function ( process, data ) {
@@ -58,7 +67,7 @@ child.on('stderr', function ( data ) {
 	console.log('');
 });
 
-/*
+/* 
 child.on('stop', function ( process ) {
 	//console.log('Quitting..');
 	console.log("stop");
