@@ -9,7 +9,7 @@ This is really only a proof of concept at this point, but the idea is to launch 
 
 But, why?
 -----
-I found myself in an awkward position, akin to realizing half way through the night at a bar that you forgot to put on deoderant.  Our SysAdmin, being constantly overload with work, took the path of least resistence when setting up our domain controller inside of our VPN.  He setup..... windows dns.  I don't blame him, but its just another episode in my DevOps bad dream.
+I found myself in an awkward position, akin to realizing half way through the night at a bar that you forgot to put on deoderant before you left the house.  Our SysAdmin, being constantly overloaded with work, took the path of least resistence when setting up our domain controller inside of our VPN.  He setup..... windows dns.  I don't blame him, but its just another episode in my DevOps bad dream.
 
 Months, and many DNS records later, I needed to add this DNS to our provisioning processes.
 
