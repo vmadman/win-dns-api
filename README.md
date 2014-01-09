@@ -19,6 +19,7 @@ The app implements a basic Restify driven REST API that translates HTTP requests
 
 So, without further adieu, here are the two supported commands and how they translate to dnscmd.
 
+    # http:// <dns-host> :3111/dns/ <zone> /a/ <node> /set/ <ip>
     http://dns-server.acme.local:3111/dns/acme.local/a/server1/set/1.2.3.4
     
     # First, delete any existing records
@@ -31,6 +32,7 @@ So, without further adieu, here are the two supported commands and how they tran
     
 ----
     
+    # http:// <dns-host> :3111/dns/ <zone> /a/ <node> /remove
     http://dns-server.acme.local:3111/dns/acme.local/a/server1/remove
     
     # Right?
