@@ -7,9 +7,7 @@ This is really only a proof of concept at this point, but the idea is to launch 
 
 But, why?
 -----
-I found myself in an awkward position, akin to realizing half way through the night at a bar that you forgot to put on deoderant before you left the house.  Our SysAdmin, being constantly overloaded with work, took the path of least resistence when setting up our domain controller inside of our VPN.  He setup..... windows dns.  I don't blame him, but its just another episode in my DevOps bad dream.
-
-Months, and many DNS records later, I needed to add this DNS to our provisioning processes.
+I found myself in an awkward position, akin to realizing half way through the night at a bar that you forgot to put on deoderant before you left the house.  I found myself having to interact with Windows DNS.  It's only awkward because of some of the things we said to each other last time we worked on a project together.  Feelings were hurt and we both swore to never talk again.
 
 Windows loathes the idea of integrating with the open world, so they only provide you with this 'dnscmd' utility as a way of remotely controlling your DNS server.  So, I did what any warm blooded, beer drinking, womanizing, redneck American man would do... I wrote a Node.JS app.
 
