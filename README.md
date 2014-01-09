@@ -1,8 +1,6 @@
 Windows DNS API (Node.JS)
 ===========
 
-> Important note.  Although I only have like three lines of code left on my proof of concept here, my wife is wearing that thing I got her for our anniversary and I'm going to need to step away for the night.. so don't use this, yet.
-
 A simple Node.JS server for updating the integrated DNS server that ships with windows.
 
 This is really only a proof of concept at this point, but the idea is to launch a simple Node.JS daemon on a windows based domain controller / dns server that allows DNS records to be manipulated via REST API calls.

@@ -25,9 +25,8 @@ console.log('-------------------------------------------------------------------
 console.log('');
 console.log('');
 
-
 // Define child process
-var child = new (forever.Monitor)('../lib/server.js', {
+var child = new (forever.Monitor)(__dirname + '/lib/server.js', {
 	silent: true,
 	options: [],
 	watch: true,
