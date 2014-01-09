@@ -1,7 +1,7 @@
-win-dns-api
+Windows DNS API (Node.JS)
 ===========
 
-    Important note.  Although I only have like three lines of code left on my proof of concept here, my wife is wearing that thing I got her for our anniversary and I'm going to need to step away for the night.. so don't use this, yet.
+> Important note.  Although I only have like three lines of code left on my proof of concept here, my wife is wearing that thing I got her for our anniversary and I'm going to need to step away for the night.. so don't use this, yet.
 
 A simple Node.JS server for updating the integrated DNS server that ships with windows.
 
@@ -42,5 +42,6 @@ So, without further adieu, here are the two supported commands and how they tran
     
     # Result:  server1.acme.local -> Poof!
 
+----
 
-Congrats, you are now certified!
+### Congrats, you are now certified!
