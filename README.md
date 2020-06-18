@@ -28,6 +28,8 @@ dnscmd /recorddelete acme.local server1 A /f
     
 # Add the new IP
 dnscmd /recordadd acme.local server1 A 1.2.3.4
+
+# A server1.acme.local -> 1.2.3.4
 ```
 
 ### GET /dns/:zone/a/:node/remove
@@ -37,6 +39,8 @@ This will remove a target `A` record and it is equivalent to running the followi
 ```
 # e.g. http://your-dns-server:3111/dns/acme.local/a/server1/remove
 dnscmd /recorddelete acme.local server1 A /f
+
+# A server1.acme.local -> (deleted)
 ```
 
 Other Notes
