@@ -6,7 +6,7 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "restify": "~2.6.1",
+    "restify": "~8.5.1",
     "forever-monitor": "~1.2.3"
   }
 }
